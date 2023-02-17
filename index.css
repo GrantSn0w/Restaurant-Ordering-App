@@ -4,6 +4,7 @@
     src: url(./Smythe-Regular.ttf);
 }
 
+
 body{
     font-family: myFont;
     margin: 0;
@@ -264,4 +265,34 @@ input{
     border: none;
     position: fixed;
 
+}
+
+@media screen and (max-width: 500px) {
+    #header{
+        max-width: 100%;
+    }
+    #checkout-section{
+        max-width: 100%;
+    }
+    #payment-complete{
+        max-width: 100%;
+    }
+    payment-btn{
+        max-width: 100%;
+    }
+    input{
+        max-width: 100%;
+    }
+    body{
+        max-width: 100%;
+    }
+    #section-1{
+        max-width: 100%;
+    }
+    .section-2{
+        max-width: 100%;
+    }
+    .button{
+        max-width: 100%;
+    }
 }
