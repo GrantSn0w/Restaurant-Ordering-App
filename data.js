@@ -6,7 +6,7 @@ export let htmlBody = `
             </div>
 
             <main>
-                    <div class="section-2">
+                    <div class= "section-2" >
                         <h1 class="emoji">🍕</h1>
                         <div>
                             <h2>Pizza</h2>
